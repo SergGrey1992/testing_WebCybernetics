@@ -1,0 +1,32 @@
+.btn {
+    width: 100%;
+    border: 1px solid var(--primary-text);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 18px 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.primary {
+    color: #fff;
+    background-color: var(--primary-text);
+}
+
+.secondary {
+    color: var(--primary-text);
+    background-color: transparent;
+}
+
+.rounded {
+    border-radius: 60px;
+}
+
+.withIcon {
+    text-align: start;
+    padding: 12px 12px 12px 24px;
+}

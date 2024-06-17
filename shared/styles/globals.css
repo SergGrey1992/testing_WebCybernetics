@@ -1,0 +1,13 @@
+@import "normalize.css";
+
+:root {
+    --bgr: #EBF0FA;
+    --primary: #244C98;
+    --primary-text: #1F4284;
+    --secondary-text: #727272;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
