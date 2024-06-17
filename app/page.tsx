@@ -1,10 +1,9 @@
 import Image from 'next/image'
 
-import styles from './page.module.css'
-import { Button } from '@/shared/ui/Button/index'
-import { Icon } from '@/shared/ui/Icon/index'
+import { Form } from '@/feature/Form'
+import { ActionModal } from '@/feature/ActionModal'
 
-//
+import styles from './page.module.css'
 
 export default function Home() {
     return (
@@ -21,23 +20,13 @@ export default function Home() {
                         </p>
                     </div>
                     <div className={styles.innerButton}>
-                        <Button
-                            rounded
-                            rightIcon={
-                                <div className={styles.iconBox}>
-                                    <Icon
-                                        as={'arrow_up_right'}
-                                        width={24}
-                                        height={24}
-                                    />
-                                </div>
-                            }
-                        >
-                            Попробовать бесплатно
-                        </Button>
+                        <ActionModal />
                     </div>
                 </div>
                 <div className={styles.imageBox}>
+                    {/*для реализации такого функционала как на дизайне
+                     мне необходимо поговорить с дизайнером чтобы были внесены определеные
+                     правки*/}
                     <Image
                         src={'/main.png'}
                         alt='Main image'
@@ -46,6 +35,7 @@ export default function Home() {
                     />
                 </div>
             </section>
+            <Form />
         </main>
     )
 }

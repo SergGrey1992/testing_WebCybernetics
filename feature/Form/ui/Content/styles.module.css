@@ -1,0 +1,54 @@
+.content {
+    width: 500px;
+    background-color: var(--bgr-form);
+    padding: 24px;
+}
+
+.top {
+    direction: rtl;
+}
+
+.titleForm {
+    font-size: 24px;
+    font-weight: 500;
+    color: #323232;
+    margin-bottom: 18px;
+}
+
+.closeBox {
+    width: 52px;
+    aspect-ratio: 1;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.checkboxBox {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.spacing {
+    margin-top: 36px;
+}
+
+.restoreBtn {
+    font-size: 18px;
+    color: #244C98;
+}

@@ -1,13 +1,17 @@
-@import "normalize.css";
+@import url("normalize.css");
 
 :root {
     --bgr: #EBF0FA;
+    --bgr-form: #F0F4FC;
+
     --primary: #244C98;
     --primary-text: #1F4284;
     --secondary-text: #727272;
+
+    --field-bgr: #D7E2F6;
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
 }

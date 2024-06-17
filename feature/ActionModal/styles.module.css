@@ -1,0 +1,13 @@
+.iconBox {
+    width: 44px;
+    aspect-ratio: 1;
+    background-color: #ffffff;
+    color: var(--primary-text);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (width < 767px) {
+        width: 36px;
+    }
+}
