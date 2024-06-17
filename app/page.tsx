@@ -4,6 +4,8 @@ import styles from './page.module.css'
 import { Button } from '@/shared/ui/Button/index'
 import { Icon } from '@/shared/ui/Icon/index'
 
+//
+
 export default function Home() {
     return (
         <main className={styles.main}>
